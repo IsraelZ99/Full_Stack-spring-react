@@ -1,0 +1,9 @@
+#server:
+#  servlet:
+#    context-path: /api (Sirve para que cada peticion que se cree sea con : /api/requestName)
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:5432/react_spring
+    username: postgres
+    password: postgres
+    pool-size: 30

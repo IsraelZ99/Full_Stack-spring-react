@@ -1,0 +1,18 @@
+/************************ PACK FRONTEND AND BACKEND IN THE SAME PORT (8080) ************************ /
+$ mvn clean install -Pdemo
+
+/************ PACK FRONTEND AND BACKEND IN THE SAME PORT (8080) SKIPING TEST (BD in aws elastic beanstalk) ************* /
+$ mvn clean install -Pdemo -DskipTests
+
+*************** JAVA 8 VERSION *************
+mvn clean install -Pdemo-compile-to-java-8 -DskipTestsaws
+
+/************************ DEPLOY FRONTEND AND BACKEND IN THE SAME PORT (8080) ************************ /
+java -jar nameJar.jar
+
+
+
+/************************ BD AWS ************************ /
+db identifier: fullstackspringbootdb
+username: Administrador
+password: 12345678

@@ -1,0 +1,6 @@
+#server:
+#  servlet:
+#    context-path: /api (Sirve para que cada peticion que se cree sea con : /api/requestName)
+spring:
+  profiles:
+    active: local

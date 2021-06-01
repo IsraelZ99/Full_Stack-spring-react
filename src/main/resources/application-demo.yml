@@ -1,0 +1,11 @@
+#server:
+#  servlet:
+#    context-path: /api (Sirve para que cada peticion que se cree sea con : /api/requestName)
+server:
+  port: 5000
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://fullstackspringbootdb.cqrpsy5b7qbx.sa-east-1.rds.amazonaws.com:5432/react_spring
+    username: Administrador
+    password: 12345678
+    pool-size: 30
